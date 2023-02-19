@@ -1,0 +1,13 @@
+Document Object: The document object represent a web page that is loaded in the browser. By accessing the document object, we can access the element in the HTML page. With the help of document objects, we can add dynamic content to our web page. The document object can be accessed with a window.document or just document
+
+A document is an object inside the window object and we use a document object for manipulation inside the document. The first thing that gets loaded into the browser is the window and the properties related to that window are stored in the window object.
+
+When an HTML document is loaded into a web browser, it becomes a document object. The document object is the root node of the HTML document. The document object is a property of the window object.
+
+Browser Object Model (BOM)
+The Browser Object Model contains objects that represent the current browser window or tab. The topmost object in the BOM is the window object representing the window or tab or an iframe sometimes. Window object has properties like browser history, location and the device’s screen etc. In case of multi tab browser, a window object represents a single tab, but some of its properties like innerHeight, innerWidth and methods like resizeTo() will affect the whole browser window.
+
+Document Object Model
+When a web page is loaded, the browser creates a Document Object Model of the page. The document object represents the whole html document as a tree of Objects(HTML, HEAD, BODY, and other HTML tags). It is the root element that represents the html document.
+
+
